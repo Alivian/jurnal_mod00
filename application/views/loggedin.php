@@ -24,7 +24,7 @@
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
-              <li class="active"><a href="<?php echo site_url('UserController/Logout'); ?>">Log Out<span class="sr-only">(current)</span></a></li>
+              <li class="active"><a href="">Log Out<span class="sr-only">(current)</span></a></li>
             </ul>
           </div>
         </div>

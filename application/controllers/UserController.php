@@ -20,6 +20,7 @@ class UserController extends CI_Controller {
     }
 
     public function Signin() {
+       
         $user = $this->User->findUser();
         if($user != null){
             if($this->input->post('remember-me') != null) {
@@ -36,13 +37,13 @@ class UserController extends CI_Controller {
     }
 
     public function Logout() {
-        $cookie = $this->input->cookie('logged');
-        if(isset($cookie)) {
-            delete_cookie('logged');
-            redirect('Landing');
-        } else {
-            session_destroy();
-            redirect('Landing');
-        }
+
+
+/*Complete Logout function using $cookie
+condition 1 if(isset($cookie)) delete cookie logged and redirect to Landing
+condition 2 else session_destroy and redirect to landing {
+   */
+
+    
     }
 }

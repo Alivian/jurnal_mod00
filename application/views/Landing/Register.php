@@ -9,7 +9,7 @@
                                 $this->load->view('Alerts/FailReg');
                             }
                         ?>
-                        <form action="<?php echo site_url('UserController/Register'); ?>" method="POST" class="register-form" id="register-form">
+                        <form action="" method="POST" class="register-form" id="register-form">
                             <div class="form-group">
                                 <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
                                 <input type="text" name="name" id="name" placeholder="Username" required/>
